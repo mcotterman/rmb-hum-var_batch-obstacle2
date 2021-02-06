@@ -5,7 +5,7 @@ radio.onReceivedString(function (receivedString) {
 })
 radio.setGroup(27)
 // led.enable(false)
-let mbId = "1"
+let mbId = "3"
 let leds = [
     {
         port: "1",
