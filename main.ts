@@ -347,9 +347,9 @@ input.onButtonPressed(Button.A, function () {
 
 basic.forever(function () {
     if(isRunning) {
-        hummingbird.setPositionServo(FourPort.One,parseInt(getRmbVar("g1p1p1")))
+        hummingbird.setPositionServo(FourPort.Three,parseInt(getRmbVar("g1p1p1")))
         basic.pause(parseInt(getRmbVar("g1bp1")));
-        hummingbird.setPositionServo(FourPort.One,parseInt(getRmbVar("g1p1p2")))
+        hummingbird.setPositionServo(FourPort.Three,parseInt(getRmbVar("g1p1p2")))
         basic.pause(parseInt(getRmbVar("g1bp2")));
     } else {
         basic.pause(500);
