@@ -84,26 +84,10 @@ Allows RMB to set variables that can then be read by loops to update StringMap
 
 
 const rmbVars = [
-    {key:'g1t1p1-r',val:'0'},
-    {key:'g1t1p1-g',val:'0'},
-    {key:'g1t1p1-b',val:'0'},
+    {key:'g1p1p1',val:'0'},
     {key:'g1bp1',val:'500'},
-    {key:'g1t1p2-r',val:'0'},
-    {key:'g1t1p2-g',val:'0'},
-    {key:'g1t1p2-b',val:'0'},
+    {key:'g1p1p2',val:'0'},
     {key:'g1bp2',val:'500'},
-    {key:'g2t2p1-r',val:'0'},
-    {key:'g2t2p1-g',val:'0'},
-    {key:'g2t2p1-b',val:'0'},
-    {key:'g2bp1',val:'500'},
-    {key:'g2t2p2-r',val:'0'},
-    {key:'g2t2p2-g',val:'0'},
-    {key:'g2t2p2-b',val:'0'},
-    {key:'g2bp2',val:'500'},
-    {key:'g3p1p1',val:'0'},
-    {key:'g3bp1',val:'500'},
-    {key:'g3p1p2',val:'0'},
-    {key:'g3bp2',val:'500'},
 ];
 
 let isRunning = false;
